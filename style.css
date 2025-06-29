@@ -1,0 +1,67 @@
+/* CSS files add styling rules to your content */
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  font-family: Georgia;
+  margin: 2em;
+}
+
+main {
+  max-width: 1000px;
+}
+
+img {
+  max-width: 90%;
+}
+
+h1 {
+  color: #6b06b8;
+}
+
+li {
+  list-style-type: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #460577;
+}
+
+a:hover {
+  color: #6b06b8;
+}
+
+.quote {
+  font-size: 30pt;
+  margin-right: 10px;
+}
+.quote.right {
+  align-self: flex-end;
+}
+
+#quote {
+  display: flex;
+  flex-flow: row;
+}
+#quote div:nth-child(2) {
+  padding-top: 8px;
+  padding-bottom: 21px;
+}
+
+p.attrib {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+section {
+  margin-top: 40px;
+}
+
+.section {
+  border: 2px solid purple;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
