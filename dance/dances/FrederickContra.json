@@ -1,0 +1,817 @@
+{
+  "title": "Frederick Contra",
+  "author": ["Tom Hinds"],
+  "minorsets": true,
+  "inactives": [2,3],
+  "type": "longways duple-minor improper long-lines",
+  "roles": [
+    {
+      "x": 100,
+      "y": -200,
+      "a": 270,
+      "arms": {"r": "-55", "l": "-125"},
+      "who": "active one lark firstcorner"
+    },
+    {
+      "x": -100,
+      "y": -200,
+      "a": 90,
+      "arms": {"r": "-55", "l": "-125"},
+      "who": "active one robin second"
+    },
+    {
+      "x": -100,
+      "y": -50,
+      "a": 90,
+      "arms": {"r": "-55", "l": "-125"},
+      "who": "active two lark second"
+    },
+    {
+      "x": 100,
+      "y": -50,
+      "a": 270,
+      "arms": {"r": "-55", "l": "-125"},
+      "who": "active two robin firstcorner"
+    }
+  ],
+  "sequence": [
+    {
+      "time": 0.0
+    },
+    {
+      "time": 0.5,
+      "part": "A1",
+      "call": "Long lines forward and back"
+    },
+    {
+      "time": 1.0,
+      "seq": [
+        [
+          {
+            "who": "all",
+            "type": "translate",
+            "x": 50,
+            "y": 0,
+            "dur": 3
+          }
+        ]
+      ]
+    },
+    {
+      "time": 5.0,
+      "seq": [
+        [
+          {
+            "who": "all",
+            "type": "translate",
+            "x": -50,
+            "y": 0,
+            "dur": 3
+          }
+        ]
+      ]
+    },
+    {
+      "time": 8.5,
+      "call": "Robins allemande left 1.5",
+      "seq": [
+        [
+          {
+            "type": "arms",
+            "who": "lark",
+            "rangle": "-135",
+            "langle": "-45",
+            "dur": 1
+          },
+          {
+            "time": 8.5,
+            "type": "arms",
+            "who": "active robin",
+            "rangle": "-135",
+            "langle": "-75",
+            "dur": 1
+          },
+          {
+            "time": 8.5,
+            "type": "translate",
+            "who": "active robin",
+            "x": 55,
+            "y": 110,
+            "dur": 1
+          }
+        ],
+        [
+          {
+            "time": 9.5,
+            "type": "path",
+            "who": "active robin",
+            "path": "a57 57 0 1 0",
+            "dx": [90],
+            "dy": [-70],
+            "dur": 2.5
+          },
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": -180,
+            "dur": 2.5
+          }
+        ],
+        [
+          {
+            "time": 12,
+            "type": "path",
+            "who": "active robin",
+            "path": "a57 57 0 1 0",
+            "dx": [90],
+            "dy": [-70],
+            "dur": 2.5
+          },
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": -180,
+            "dur": 2.5
+          }
+        ],
+        [
+          {
+            "time": 14.5,
+            "type": "path",
+            "who": "active robin",
+            "path": "a80 47 0 0 0",
+            "dx": [145],
+            "dy": [12],
+            "dur": 2.5
+          },
+          {
+            "who": "active robin",
+            "type": "arms",
+            "rangle": "-135",
+            "langle": "-105",
+            "dur": 1
+          }
+        ]
+      ]
+    },
+    {
+      "time": 9.0,
+      "seq": [
+        [
+          {
+            "who": "out",
+            "type": "path",
+            "path": "a100 50 0 1 1",
+            "dx": [200],
+            "dy": [0],
+            "dur": 4,
+            "start": 1
+          },
+          {
+            "who": "out",
+            "type": "rotate",
+            "da": 180,
+            "dur": 4,
+            "start": 1
+          },
+          {
+            "who": "out",
+            "type": "arms",
+            "rangle": "-135",
+            "langle": "-45",
+            "dur": 1
+          }
+        ]
+      ]
+    },
+    {
+      "time": 15.5,
+      "seq": [
+        [
+          {
+            "who": "active robin",
+            "type": "arms",
+            "rangle": "-135",
+            "langle": "-45",
+            "dur": 0.6
+          }
+        ]
+      ]
+    },
+    {
+      "time": 15.75,
+      "seq": [
+        [
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": -90,
+            "dur": 1.25
+          },
+          {
+            "who": "active lark",
+            "type": "rotate",
+            "da": -90,
+            "dur": 0.5
+          }
+        ]
+      ]
+    },
+    {
+      "time": 16.5,
+      "part": "A2",
+      "call": "Partner balance and swing",
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-95",
+            "langle": "-85",
+            "dur": 0.4
+          },
+          {
+            "who": "active lark",
+            "type": "translate",
+            "x": 0,
+            "y": 28,
+            "dur": 0.5
+          }
+        ]
+      ]
+    },
+    {
+      "time": 17.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "translate",
+            "x": 0,
+            "y": 12,
+            "dur": 1
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-135",
+            "langle": "-45",
+            "dur": 1
+          }
+        ]
+      ]
+    },
+    {
+      "time": 19.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "translate",
+            "x": 0,
+            "y": -14,
+            "dur": 1
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-95",
+            "langle": "-85",
+            "dur": 1
+          }
+        ]
+      ]
+    },
+    {
+      "time": 21.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "translate",
+            "x": -10,
+            "y": 14,
+            "dur": 0.8
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-75",
+            "langle": "-75",
+            "dur": 0.8
+          }
+        ],
+        [
+          {
+            "who": "active one",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.07
+          },
+          { "who": "active one", "type": "rotate", "da": 180, "dur": 2.07 }
+        ],
+        [
+          {
+            "who": "active one",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.07
+          },
+          { "who": "active one", "type": "rotate", "da": 180, "dur": 2.07 }
+        ],
+        [
+          {
+            "who": "active one",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.07
+          },
+          { "who": "active one", "type": "rotate", "da": 180, "dur": 2.07 }
+        ],
+        [
+          {
+            "who": "active one",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.07
+          },
+          { "who": "active one", "type": "rotate", "da": 180, "dur": 2.07 }
+        ],
+        [
+          {
+            "who": "active one",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [-20],
+            "dy": [17],
+            "dur": 0.52
+          },
+          { "who": "active one", "type": "rotate", "da": 45, "dur": 0.52 }
+        ]
+        
+      ]
+    },
+    {
+      "time": 21.8,
+      "seq": [
+        [
+          {
+            "who": "active two",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.7
+          },
+          { "who": "active two", "type": "rotate", "da": 180, "dur": 2.7 }
+        ],
+        [
+          {
+            "who": "active two",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.7
+          },
+          { "who": "active two", "type": "rotate", "da": 180, "dur": 2.7 }
+        ],
+        [
+          {
+            "who": "active two",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.7
+          },
+          { "who": "active two", "type": "rotate", "da": 180, "dur": 2.7 }
+        ],
+        [
+          {
+            "who": "active two",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [-20],
+            "dy": [14],
+            "dur": 0.68
+          },
+          { "who": "active two", "type": "rotate", "da": 45, "dur": 0.68 }
+        ]
+      ]
+    },
+    {
+      "time": 30.6,
+      "seq": [
+        [
+          
+          {
+            "who": "active robin one",
+            "type": "translate",
+            "x": 5,
+            "y": 18,
+            "dur": 1.57
+          },
+          {
+            "who": "active lark one",
+            "type": "translate",
+            "x": -95,
+            "y": 18,
+            "dur": 1.57
+          },
+          {
+            "who": "active robin two",
+            "type": "translate",
+            "x": -95,
+            "y": 18,
+            "dur": 1.57
+          },
+          {
+            "who": "active lark two",
+            "type": "translate",
+            "x": 5,
+            "y": 18,
+            "dur": 1.57
+          },
+          {
+            "who": "active lark",
+            "type": "rotate",
+            "da": -45,
+            "dur": 1.57,
+            "time": 14.6
+          },
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": 135,
+            "dur": 1.57,
+            "time": 14.6
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-55",
+            "langle": "-125",
+            "dur": 1.57
+          }
+        ]
+      ]
+    },
+    {
+      "time": 32.5,
+      "part": "B1",
+      "call": "Down the hall in lines of four"
+    },
+    {
+      "time": 33.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "translate",
+            "x": 0,
+            "y": 150,
+            "dur": 5.6
+          },
+          {
+            "who": "out two robin",
+            "type": "translate",
+            "x": 0,
+            "y": -150,
+            "dur": 5.6
+          },
+          {
+            "who": "out two lark",
+            "type": "translate",
+            "x": 0,
+            "y": 150,
+            "dur": 5.6
+          }
+        ],
+        [
+          {
+            "who": "active lark",
+            "type": "path",
+            "path": "a75 75 0 1 1",
+            "dx": [150],
+            "dy": [0],
+            "dur": 2.2
+          },
+          {
+            "who": "active robin",
+            "type": "path",
+            "path": "a75 75 0 1 1",
+            "dx": [-150],
+            "dy": [0],
+            "dur": 2.2
+          },
+          {
+            "who": "active",
+            "type": "rotate",
+            "da": 180,
+            "dur": 2.2
+          }
+        ]
+      ]
+    },
+    {
+      "time": 38.0,
+      "call": "Turn as a couple, come back up"
+    },
+    {
+      "time": 41.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "translate",
+            "x": 0,
+            "y": 125,
+            "dur": 6
+          },
+          {
+            "who": "out two robin",
+            "type": "translate",
+            "x": 0,
+            "y": 125,
+            "dur": 6
+          },
+          {
+            "who": "out two lark",
+            "type": "translate",
+            "x": 0,
+            "y": -125,
+            "dur": 6
+          }
+        ],
+        [
+          {
+            "who": "out two robin",
+            "type": "translate",
+            "x": 0,
+            "y": 25,
+            "dur": 1
+          },
+          {
+            "who": "out two lark",
+            "type": "translate",
+            "x": 0,
+            "y": -25,
+            "dur": 1
+          },
+          {
+            "who": "active firstcorner",
+            "type": "translate",
+            "x": 0,
+            "y": -50,
+            "dur": 1.8
+          },
+          {
+            "who": "active second lark",
+            "type": "path",
+            "path": "a225 175 0 0 1",
+            "dx": [150],
+            "dy": [100],
+            "dur": 1.8
+          },
+          {
+            "who": "active second robin",
+            "type": "path",
+            "path": "a225 175 0 0 0",
+            "dx": [-150],
+            "dy": [100],
+            "dur": 1.8
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-65",
+            "langle": "-115",
+            "dur": 1.8
+          },
+          {
+            "who": "active firstcorner lark",
+            "type": "rotate",
+            "da": -45,
+            "dur": 1.8
+          },
+          {
+            "who": "active firstcorner robin",
+            "type": "rotate",
+            "da": 45,
+            "dur": 1.8
+          },
+          {
+            "who": "active second lark",
+            "type": "rotate",
+            "da": 135,
+            "dur": 1.8
+          },
+          {
+            "who": "active second robin",
+            "type": "rotate",
+            "da": -135,
+            "dur": 1.8
+          }
+        ]
+      ]
+    },
+    {
+      "time": 46.0,
+      "call": "Bend the line and circle left 3/4"
+    },
+    {
+      "time": 48.5,
+      "part": "B2"
+    },
+    {
+      "time": 49.0,
+      "seq": [
+        [
+          {
+            "who": "active lark",
+            "type": "path",
+            "path": "a106 106 0 1 1",
+            "dx": [0],
+            "dy": [150],
+            "dur": 6.2
+          },
+          {
+            "who": "active robin",
+            "type": "path",
+            "path": "a106 106 0 1 1",
+            "dx": [150],
+            "dy": [0],
+            "dur": 6.2
+          },
+          
+          {
+            "who": "active",
+            "type": "rotate",
+            "da": 10,
+            "dur": 0.6
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-40",
+            "langle": "-85",
+            "dur": 0.6
+          }
+        ]
+      ]
+    },
+    {
+      "time": 49.6,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "rotate",
+            "da": 218,
+            "dur": 5.0
+          }
+        ],
+        [
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-65",
+            "langle": "-115",
+            "dur": 0.6
+          },
+          {
+            "who": "active",
+            "type": "rotate",
+            "da": 42,
+            "dur": 0.6
+          }
+        ],
+        [
+          {
+            "who": "active lark",
+            "type": "translate",
+            "x": -55,
+            "y": 40,
+            "dur": 1.6
+          },
+          {
+            "who": "active robin",
+            "type": "translate",
+            "x": 35,
+            "y": 40,
+            "dur": 1.6
+          },
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": 45,
+            "dur": 1.6
+          },
+          {
+            "who": "active lark",
+            "type": "rotate",
+            "da": -45,
+            "dur": 1.6
+          },
+          {
+            "who": "active",
+            "type": "arms",
+            "rangle": "-75",
+            "langle": "-75",
+            "dur": 1.6
+          }
+        ]
+      ]
+    },
+    {
+      "time": 56.5,
+      "call": "Neighbor swing"
+    },
+    {
+      "time": 57.0,
+      "seq": [
+        [
+          {
+            "who": "active",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.25
+          },
+          { "who": "active", "type": "rotate", "da": 180, "dur": 2.25 }
+        ],
+        [
+          {
+            "who": "active",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [20],
+            "dy": [66],
+            "dur": 2.25,
+            "time": 43.25
+          },
+          { "who": "active", "type": "rotate", "da": 180, "dur": 2.25 }
+        ],
+        [
+          {
+            "who": "active",
+            "type": "path",
+            "path": "a34.5 34.5 0 0 1",
+            "dx": [-6],
+            "dy": [63],
+            "dur": 1.7,
+            "time": 45.5
+          },
+          { "who": "active", "type": "rotate", "da": 135, "dur": 1.7 }
+        ],
+        [
+          {
+            "who": "active lark",
+            "type": "rotate",
+            "da": -45,
+            "dur": 1.2,
+            "time": 47.2
+          },
+          {
+            "who": "active robin",
+            "type": "rotate",
+            "da": 135,
+            "dur": 1.2
+          },
+          {
+            "who": "all",
+            "type": "translate",
+            "to": { "x": 0, "y": -1 },
+            "x": 100,
+            "y": 150,
+            "xoff": 0,
+            "yoff": -50,
+            "dur": 1.2
+          },
+          {
+            "who": "all",
+            "type": "arms",
+            "rangle": "-55",
+            "langle": "-125",
+            "dur": 1.2
+          }
+        ]
+      ]
+    },
+    {
+      "time": 64.0,
+      "progress": "improper-lines",
+      "repeat": true
+    }
+  ]
+}
